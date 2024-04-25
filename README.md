@@ -1,6 +1,6 @@
 # Bootstrap Responsive Gaming Website
 
-This repository is for practicing Bootstrap for a gaming website.
+This repository is for practicing Bootstrap for a gaming website. s
 
 ## Attention
 
