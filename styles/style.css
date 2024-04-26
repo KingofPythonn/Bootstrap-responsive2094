@@ -1,0 +1,41 @@
+@font-face {
+    font-family: poppins;
+    src: url("..//assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: poppinsRegular;
+    src: url("..//assets/fonts/Poppins-Regular.ttf");
+}
+
+.font-bold {
+    font-family: poppins;
+}
+
+.font-regular {
+    font-family: poppinsRegular;
+}
+
+.orange {
+    background-color: #FA8305;
+}
+
+.black1 {
+    background-color: 000;
+}
+
+.blue {
+    background-color: #3B2A9F;
+}
+
+.purpule {
+    background-color: #5141AA;
+}
+
+.brown {
+    background: #1C140F;
+}
+
+.black {
+    background-color: #070707;
+}
