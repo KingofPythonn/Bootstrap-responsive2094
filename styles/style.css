@@ -47,7 +47,7 @@
     margin: 7px 0;
 }
 
-/* active link  */
+/*  */
 .active {
 
     border-bottom: #FA8305;
@@ -57,16 +57,4 @@
 
 }
 
-.mx-6 {
-    margin-right: 10rem;
-
-}
-
-.mx-7 {
-    margin-left: 9rem;
-    margin-top: 13rem;
-}
-
-.py-6 {
-    padding-bottom: 10rem;
-}
+/*  */
