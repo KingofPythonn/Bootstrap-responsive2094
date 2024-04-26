@@ -18,58 +18,98 @@
 
 <body class="blue text-white">
 
-  <header class=" p-4 navbar">
-    <h1 class="font-bold px-3">LOGO</h1>
-    <div class="d-none d-lg-block font-regular px-4">
-      <a href="index.html "
-        class=" text-white link-offset-2 link-underline link-underline-opacity-0 px-3  active">Home</a>
-      <a href="games.html" class="text-white link-offset-2 link-underline link-underline-opacity-0 px-5">Games</a>
-      <a href="#foot" class="text-white link-offset-2 link-underline link-underline-opacity-0 px-4">About us</a>
-      <a href="" class="text-white link-offset-2 link-underline link-underline-opacity-0 px-4">News</a>
-      <a href=""><button class="orange text-white rounded-3 p-2 border-0 ">Page theme</button></a>
+
+
+
+  <section>
+    <header class=" p-4 navbar">
+      <h1 class="font-bold px-3">LOGO</h1>
+      <div class="d-none d-lg-block font-regular px-4">
+        <a href="index.html "
+          class=" text-white link-offset-2 link-underline link-underline-opacity-0 px-3  active">Home</a>
+        <a href="games.html" class="text-white link-offset-2 link-underline link-underline-opacity-0 px-5">Games</a>
+        <a href="#foot" class="text-white link-offset-2 link-underline link-underline-opacity-0 px-4">About us</a>
+        <a href="" class="text-white link-offset-2 link-underline link-underline-opacity-0 px-4">News</a>
+        <a href=""><button class="orange text-white rounded-3 p-2 border-0 ">Page theme</button></a>
+      </div>
+
+      <div class="d-lg-none d-block">
+        <button class="navbar-toggler text-white border border-white border-2 rounded-4 p-2 " type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <div class=" menu "></div>
+          <div class=" menu "></div>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./games.html">Games</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About us
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " aria-current="page" href="#">News</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+      </div>
+
+    </header>
+
+  </section>
+  <section>
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 pb-5">
+        <div class="col-10 col-sm-8 col-lg-6 justify-content-md-end">
+          <img src="./assets/images/controler.png"
+            class=" mx-lg-auto img-fluid  d-md-block d-lg-block d-none center-block justify-content-md-end "
+            alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+
+
+          <img src="./assets/images/unity.png" class="  d-md-none d-lg-block d-none" height="20px" alt="">
+
+        </div>
+
+
+        <div class="col-lg-6">
+
+          <p class=" font-bold  text-lg-start text-center" style="color:orange; ">Proved By Your Name
+          </p>
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-center text-lg-start">Responsive left-aligned
+            hero with image</h1>
+          <p class="lead  text-center text-lg-start">Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the
+            industry's standard.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-lg-start justify-content-center">
+            <a href="./games.html"><button type="button" class="btn orange  rounded-3 p-2 border-0  text-white"
+                fdprocessedid="6spj63">Get more
+                details</button></a>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="d-lg-none d-block">
-      <button class="navbar-toggler text-white border border-white border-2 rounded-4 p-2 " type="button"
-        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <div class=" menu "></div>
-        <div class=" menu "></div>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active text-white" aria-current="page" href="./index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./games.html">Games</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            About us
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  " aria-current="page" href="#">News</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-    </div>
-
-  </header>
+  </section>
 
 
 
