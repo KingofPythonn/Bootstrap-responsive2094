@@ -40,7 +40,7 @@
     background-color: #070707;
 }
 
-.menu {
+.line {
     width: 20px;
     height: 2px;
     background-color: white;
@@ -48,7 +48,7 @@
 }
 
 /*  */
-.active {
+.stylish {
 
     border-bottom: #FA8305;
     border-bottom-style: solid;
