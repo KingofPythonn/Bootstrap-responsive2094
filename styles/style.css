@@ -57,4 +57,23 @@
 
 }
 
+
+.imgop {
+    opacity: 1.0;
+}
+
+.imgop:hover {
+    opacity: 0.5;
+}
+
+.containerr {
+    transform: scale(1);
+
+}
+
+.containerr:hover {
+    transform: scale(1.5);
+}
+
+
 /*  */
